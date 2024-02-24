@@ -1,0 +1,97 @@
+/*
+    This simple template was recycled from one of my Frontend Mentor projects to make starting a new challenge slightly more streamlined.
+
+    License: MIT (https://github.com/r3cla/cardtemplate/blob/main/LICENSE)
+    Author: r3cla
+
+
+
+
+
+
+
+
+*/
+
+
+
+
+/* Base styles */
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: hsl(212, 45%, 89%);
+    font-family: 'Outfit', sans-serif;
+}
+
+/* Card styles */
+.card {
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 20px; 
+    padding: 1.2em;
+    text-align: center;
+    max-width: 325px; 
+    box-sizing: border-box; 
+    margin: 0 1em; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+}
+
+.card-title {
+    color: hsl(218, 44%, 22%);
+    font-size: 1.4em;
+    font-weight: bold;
+    margin-top: -0.5em;
+}
+
+.card-subtitle {
+    color: hsla(217, 45%, 22%, 0.75);
+    margin-bottom: 2em; 
+    font-size: 1.1em;
+}
+
+.card-text {
+    color: hsl(0, 0%, 0%);
+    margin-top: 1em; 
+    font-size: 0.9em;
+    line-height: 1.5;
+}
+
+/* Footer styles */
+.attribution {
+    font-size: 0.7em;
+    text-align: center;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    color: hsl(220, 15%, 55%); 
+    background-color: hsl(0, 0%, 100%); 
+    padding: 1em; 
+  }
+  
+  .attribution a {
+    color: hsl(218, 44%, 22%); 
+    text-decoration: none;
+  }
+  
+  .attribution a:hover {
+    text-decoration: underline;
+  }
+
+
+  /*--------------------------*/
+  /*------Optimisations------*/
+  /*------------------------*/
+
+  @media (max-width: 640px) {
+    .card {
+         font-size: 115%;
+    }
+
+    .attribution {
+        font-size: 105%;
+    }
+}

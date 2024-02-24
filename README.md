@@ -1,0 +1,1 @@
+This is a simple starting-point template for web designs that utilise a "card" element.
